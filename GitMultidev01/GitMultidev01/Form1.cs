@@ -20,5 +20,11 @@ namespace GitMultidev01
         {
             MessageBox.Show("Hello world\r\nสวัสดี ชาวโลก");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 ofrm2 = new Form2();
+            ofrm2.Show();
+        }
     }
 }
